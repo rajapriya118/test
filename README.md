@@ -56,7 +56,7 @@ npm run report
 8.Startover button not get resetting due to ifram and old locator
 
 
-As per mentioned points find the failed test cases 
+As per mentioned points find the errors occured:
 
 [when error.pdf](https://github.com/user-attachments/files/23463419/when.error.pdf)
 [error5.pdf](https://github.com/user-attachments/files/23463418/error5.pdf)
