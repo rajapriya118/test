@@ -11,7 +11,7 @@ playwright v 1.45
 Node version to be 18 to 20 where v 25 doesn't support the playwright as well as cucumber 
 node v18 is under maintance so downloaded v20
 npm version from cmd
------Borrowing and start over fucntions-----
+**-----Borrowing and start over fucntions-----**
 1.Create the folder and open that folder in VScode
 2.Create the project step folder and files 
 playwright-cucumber-test/
@@ -41,18 +41,18 @@ npm run report
    4.Pagelaods and browser get closed 
    5.Get html report for all executed secanrios in html format.
 7. This execution run successfully from cmd for CI/CD 
-8. below mentioned execution for **Startover** 
+8. Below mentioned execution for **Startover** 
 [execution.pdf](https://github.com/user-attachments/files/23462842/execution.pdf)
 [startover output.pdf](https://github.com/user-attachments/files/23462833/startover.output.pdf)
 
---------Challenges faced during execution----
+**--------Challenges faced during execution----**
 1.Initial had the vs code version issue then v1.105.1
 2. From vs code install downlaod the playwright from market extenstion is doesn't installed
 3. Timeout error (cucumber)
 4.iframe time out though startover devloped in angluar its difficult to run
 5.Locator for elements due to iframe
 6.Versioncontrol for node,cucumber and playwright intergration though node v25 is not supported but whenever we install node v20 manually after some execution npm install it get autoupdated.
-7.playwright get duplicate error 
+7.Playwright get duplicate error 
 8.Startover button not get resetting due to ifram and old locator
 
 
