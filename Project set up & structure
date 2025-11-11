@@ -1,0 +1,26 @@
+Versions: 
+Node v 20.19.5 
+npm v 11.0 
+cucumber v 9.4 
+playwright v 1.45
+
+Prerequities: 
+Node version to be 18 to 20 where v 25 doesn't support the playwright as well as cucumber node v18 is under maintance so downloaded v20 npm version from cmd -----Borrowing and start over fucntions-----
+1.Create the folder and open that folder in VScode 
+2.Create the project step folder and files
+loan/
+│
+├── features/
+│   └── borrowing.feature
+│
+├── steps/
+│   └── borrowing.steps.js
+│
+├── support/
+│   ├── world.js
+│   ├── hooks.js
+│
+├── reports/
+│
+├── cucumber.js
+└── package.json
