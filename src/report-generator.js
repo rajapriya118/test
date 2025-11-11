@@ -20,7 +20,7 @@ const options = {
 
 reporter.generate(options);
 
-console.log(`🚀 Cucumber HTML report ${outputPath} generated successfully 👍`);
+console.log(`Cucumber HTML report ${outputPath} generated successfully`);
 
 const openCommand = process.platform === 'win32' ? `start ""` : process.platform === 'darwin' ? 'open' : 'xdg-open';
 
