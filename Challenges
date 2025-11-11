@@ -1,1 +1,8 @@
-
+Initial had the vs code version issue then v1.105.1
+From vs code install downlaod the playwright from market extenstion is doesn't installed
+Timeout error (cucumber)
+iframe time out though startover devloped in angluar its difficult to run
+Locator for elements due to iframe
+Versioncontrol for node,cucumber and playwright intergration though node v25 is not supported but whenever we install node v20 manually after some execution npm install it get autoupdated.
+Playwright get duplicate error 
+Startover button not get resetting due to ifram and old locator
