@@ -1,11 +1,16 @@
 Open the directory in terminal to install dependencies -->playwright -->cucumber -->cucumber-html-report 
-By using npm install npx playwright install 5. After proper set up run code npm run test npm run report 
-6.Execution part :(Given,When,Then,And) 
+By using npm install 
+    npx playwright install 
+After proper set up run code
+    npm run test 
+    npm run report 
+Execution part :(Given,When,Then,And) 
     1.Browser launch 
     2.Check the borrowing inputs as per given inputs 
     3.Verify that form get reset once click on startover 
     4.Pagelaods and browser get closed
     5.Get html report for all executed secanrios in html format. 
     6. This execution run successfully from cmd for CI/CD
+
 
 
