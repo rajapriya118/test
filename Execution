@@ -11,6 +11,7 @@ Execution part :(Given,When,Then,And)
     4.Pagelaods and browser get closed
     5.Get html report for all executed secanrios in html format. 
     6. This execution run successfully from cmd for CI/CD
+Status
 
 
 

@@ -1,0 +1,19 @@
+A person with the following details:
+Single,
+0 dependants,
+buying a home to live in,
+with income of $100,000,
+other income $10,000,
+living expenses $2000,
+current home loan repayments $0,
+other loan repayments $100,
+other commitments $0
+and total credit card limits $10,000
+has a borrowing estimate of $547,000
+
+Status: Error occured,Failed
+
+Clicking the ‘start over’ button clears the form
+
+Status:Successfully executed,Pass
+
