@@ -4,12 +4,12 @@ const { expect } = require('@playwright/test');
 Given('I open the ANZ borrowing power calculator', async function () {
   await this.page.goto('https://www.anz.com.au/personal/home-loans/calculators-tools/much-borrow/', {
     waitUntil: 'domcontentloaded',
-    timeout: 90000  // 👈 increase to 90 seconds
+    timeout: 90000  // increase to 90 seconds
   });
 
   // Sometimes site has cookie banner or iframe
   await this.page.waitForTimeout(5000);
-  console.log('✅ Page loaded successfully');
+  console.log('Page loaded successfully');
 });
 
 
