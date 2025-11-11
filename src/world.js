@@ -10,7 +10,7 @@ class CustomWorld {
   }
 
   async launchBrowser(options = { headless: false }) {
-    console.log('🚀 Launching browser for new scenario...');
+    console.log('Launching browser for new scenario...');
     this.browser = await chromium.launch(options);
     this.context = await this.browser.newContext();
     this.page = await this.context.newPage();
@@ -18,7 +18,7 @@ class CustomWorld {
 
   async closeBrowser() {
     if (this.browser) {
-      console.log('🧹 Closing browser after scenario...');
+      console.log('Closing browser after scenario...');
       await this.browser.close();
     }
   }
